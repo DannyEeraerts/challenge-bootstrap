@@ -1,0 +1,14 @@
+.hover:hover > hr{
+  visibility: hidden;
+}
+.hover:hover > a{
+  background-color: #007bff;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+  padding: 0.55em 0.75em;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.hover:hover > a.text-secondary:hover{
+  color: white !important;
+}
